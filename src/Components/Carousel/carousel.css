@@ -1,0 +1,33 @@
+.banner-carousel .slick-prev:before,
+.banner-carousel .slick-next:before {
+  font-size: 40px;
+}
+.banner-carousel .slick-prev {
+  left: -40px;
+}
+
+.banner-carousel .slick-next {
+  right: -18px;
+}
+
+.banner-carousel .slick-dots {
+  bottom: 12px;
+}
+.banner-carousel .slick-dots li {
+  width: 15px;
+}
+
+.banner-carousel .slick-dots li button:before {
+  font-size: 10px;
+  line-height: 22px;
+  color: #fff;
+}
+
+.banner-carousel .slick-dots li.slick-active button:before {
+  color: #fff;
+  background: #e7a356;
+
+  border-radius: 50px;
+
+  opacity: 1.5;
+}

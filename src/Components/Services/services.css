@@ -1,0 +1,84 @@
+.banner-dots .slick-dots li button {
+  border: 3px solid #ebb273;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.banner-dots .slick-dots li button:before {
+  font-size: 10px;
+  line-height: 22px;
+}
+.banner-dots .slick-next {
+  right: 34px;
+  top: 40%;
+}
+.banner-dots .slick-next:before {
+  font-size: 46px;
+}
+.banner-dots .slick-prev {
+  z-index: 2;
+  left: -12px;
+  top: 40%;
+}
+.banner-dots .slick-prev:before {
+  font-size: 46px;
+}
+
+.content {
+  position: absolute;
+  top: 400px;
+  color: #ffffff;
+  font-weight: bold !important;
+  font-size: 22px !important;
+}
+
+.service-details {
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  position: absolute;
+  cursor: pointer;
+  opacity: 1;
+  transition: 1s;
+  z-index: 1;
+}
+
+.service-details:hover .overlay {
+  background-image: url("../../assets/backGround.png");
+
+  opacity: 4;
+}
+.desc {
+  width: 100%;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: 1s;
+}
+.service-details:hover .desc {
+  bottom: 40%;
+  opacity: 1;
+  z-index: 1;
+}
+
+.desc .service-head {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.desc .service-para {
+  font-size: 18px;
+  font-weight: bold;
+}

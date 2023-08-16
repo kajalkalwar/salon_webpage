@@ -1,0 +1,17 @@
+.testimonial-arrow .slick-dots li button {
+  border: 3px solid #ebb273;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.testimonial-arrow .slick-dots li button:before {
+  font-size: 10px;
+  line-height: 22px;
+}
+
+.testimonial-arrow .slick-next:before {
+  visibility: hidden;
+}
+
+.testimonial-arrow .slick-prev:before {
+  visibility: hidden;
+}

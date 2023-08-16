@@ -1,0 +1,33 @@
+.team-arrow .slick-next {
+  background-color: #000000;
+  border-radius: 50px;
+  right: 9px;
+  width: 40px;
+  height: 40px;
+}
+.team-arrow .slick-next:before {
+  font-size: 46px;
+}
+
+.team-arrow .slick-prev {
+  background-color: #000000;
+  border-radius: 50px;
+  z-index: 2;
+  left: -10px;
+  top: 47%;
+  width: 40px;
+  height: 40px;
+}
+.team-arrow .slick-prev:before {
+  font-size: 46px;
+}
+
+.team-arrow .slick-dots li button {
+  border: 3px solid #ebb273;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.team-arrow .slick-dots li button:before {
+  font-size: 10px;
+  line-height: 22px;
+}
